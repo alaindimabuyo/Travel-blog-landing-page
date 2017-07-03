@@ -1,0 +1,97 @@
+
+
+.himage{
+
+	position: relative;
+}
+
+p{
+	font-size: 20px;
+}
+
+.heading
+{
+	position:absolute;
+	top:40%;
+	bottom:45%;
+	left: 30%;
+	border: 1px solid #fff;
+	color: #fff;
+	font-size:40px;
+	font-family: "Arial", sans-serif;
+	padding-bottom: 1em;
+}
+
+.heading2{
+	position:absolute;
+	top:50%;
+	bottom:47%;
+	left: 40%;
+	color: #fff;
+	font-size:10px;
+	font-family: "Arial", sans-serif;
+}
+
+head.img{
+	width:100%;
+	height:auto;
+}
+.logo{
+	position: absolute;
+	width:20px;
+	height:20px;
+	display:inline-block;
+	top: 0%;
+	padding: 10px 10px;
+	color: #fff;
+}
+
+.titleblog{
+	position: absolute;
+	top:0%;
+	color: #fff;
+	font-family: verdana,sans-serif;
+	left: 9%;
+	font-size:30px;
+	color:#4acbf9;
+	margin:auto;
+	padding: auto;
+}
+	
+
+.buttons{
+	display: inline-block;
+	position:absolute;
+	top:0%;
+	bottom:0%;
+	left: 60%;
+	padding: 10px 52px;
+	text-align: center;
+	text-decoration: none;
+	border:none;
+	 max-width: 500px;
+    height: 100px;
+
+
+}
+
+.button1, .button2, .button3, .button4{
+	background-color: #7c450b;	
+	border: none;
+	color: #fff;
+	border-radius: 10%;
+	cursor: pointer;
+	 -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    font-family: Verdana, sans-serif;
+    height: 50px;
+    width: 70px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.button1:hover, .button2:hover, .button3:hover, .button4:hover {
+    background-color: #4acbf9; /* Green */
+    color: white;
+}
